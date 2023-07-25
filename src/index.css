@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-digital-technology-gaming-background-with-circuit-picture-image_1247010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.main-container {
+  margin: 2rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.score-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn {
+  color: #222;
+  border: none;
+  background-color: #eee;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  filter:
+    drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+    drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:active {
+  filter: none;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+.scores-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.list-container tr:nth-child(odd) {
+  background-color: rgb(205, 197, 197);
+}
+
+table td {
+  padding: 0.3rem 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+}
+
+form input {
+  outline: none;
+  width: 80%;
+  border: 4px solid #eee;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  background: transparent;
+  font-size: 1.5rem;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+.submit-wrapper {
+  position: relative;
+  width: 85%;
+}
+
+.add-score {
+  display: grid;
+}
