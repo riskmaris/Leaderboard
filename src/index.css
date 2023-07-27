@@ -10,6 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-digital-technology-gaming-background-with-circuit-picture-image_1247010.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container {
