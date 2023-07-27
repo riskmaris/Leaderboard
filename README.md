@@ -20,7 +20,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-My Leaderboard is a simple website that is created using Webpack and ES6 syntax where a user can add and remove tasks.
+My Leaderboard is a simple website that is created using Webpack and ES6 syntax where a user can add scores.
 
 ## 🛠 Built With <a name="built-with"></a>
     Webpack
