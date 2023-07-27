@@ -1,15 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 body {
+  min-width: 100%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
-  background-color: rgb(245, 245, 245);
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: aquamarine;
 }
 
 .main-container {
@@ -24,11 +26,13 @@ body {
 }
 
 .btn {
+  float: right;
+  padding: 5px;
   color: #222;
   border: none;
+  border-radius: 5px;
   background-color: #eee;
-  font-size: 1rem;
-  font-family: inherit;
+  font-size: 1.2rem;
   cursor: pointer;
   filter:
     drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
@@ -36,12 +40,12 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.btn:active {
-  filter: none;
+.btn:hover {
+  box-shadow: 4px 3px 1px 0 rgb(49, 9, 9);
 }
 
-form {
-  margin-bottom: 2rem;
+.btn:active {
+  filter: none;
 }
 
 .scores-container {
@@ -50,21 +54,34 @@ form {
 }
 
 .heading {
+  margin-left: 30px;
   display: flex;
-  gap: 4rem;
+  gap: 7.4rem;
   align-items: center;
+  font-size: 25px;
+}
+
+.refresh-btn {
+  font-size: 1rem;
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 table {
-  width: 80%;
+  width: 70%;
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.list-container {
+  margin-left: 30px;
 }
 
 .list-container tr:nth-child(odd) {
@@ -80,13 +97,18 @@ table td {
 
 form input {
   outline: none;
-  width: 80%;
+  width: 50%;
   border: 4px solid #eee;
-  padding: 1rem 0.5rem;
+  padding: 1rem;
   margin-bottom: 1rem;
   background: transparent;
   font-size: 1.5rem;
   font-family: 'Press Start 2P', sans-serif;
+}
+
+.heading2 {
+  font-size: 25px;
+  font-stretch: extra-expanded;
 }
 
 input::placeholder {
@@ -96,7 +118,7 @@ input::placeholder {
 
 .submit-wrapper {
   position: relative;
-  width: 85%;
+  width: 56%;
 }
 
 .add-score {
