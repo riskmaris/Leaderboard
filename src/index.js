@@ -3,7 +3,7 @@ import './index.css';
 const mockScores = [
   { user: 'Lameck', score: 1254 },
   { user: 'bbbbbbb', score: 77 },
-  { user: 'milen', score: 39 },
+  { user: 'Maris', score: 39 },
   { user: 'Highest', score: 1000 },
   { user: 'dsadad', score: 'dsadada' },
   { user: 'Amin', score: 100 },
