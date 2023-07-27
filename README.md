@@ -52,7 +52,7 @@ My Leaderboard is a simple website that is created using Webpack and ES6 syntax 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-1. Go to this URL link: https://github.com/riskmaris/ToDo-List.git
+1. Go to this URL link: https://github.com/riskmaris/Leaderboard.git
 2. clone the repo and start working on it.
 
 ### Prerequisites
@@ -104,7 +104,6 @@ Deploy this project on any web server
 
     **Maris Kapuka**
 - GitHub: [@githubhandle](https://github.com/riskmaris)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/riskmaris)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
